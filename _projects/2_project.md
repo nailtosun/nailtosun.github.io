@@ -10,7 +10,7 @@ category: work
 
 Third phase of the [TUFAN](http://www.millisavunma.com/aselsan-tufan-elektromanyetik-top-sistemi/) railgun project in which a 10 MJ prototype will be tested. Detailed 3D FEA models are developed to obtain electrical, mechanical force, and thermal characteristics of the railgun.
 
-<iframe src="[https://www.youtube.com/embed/syG2RI37XII](https://youtu.be/m4jd8K6M92k?si=5SCYLCLbnxJeCBr8&t=40)" width="440" height="315" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/m4jd8K6M92k" width="560" height="315" title="A YouTube video" frameborder="0" allowfullscreen></iframe>>
 <iframe src="https://www.youtube.com/embed/58MmOpSm4LY" width="440" height="315" frameborder="0"></iframe>
 
 The following are the main topics under this project:
