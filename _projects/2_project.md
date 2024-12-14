@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: Electromagnetic Design and Optimization of MJ-Scale Electromagnetic Launchers - Phase III-VI:
+description: Project Supported by Defense Industry, 2016 - 2024
+
 img: assets/img/3.jpg
 importance: 2
-category: work
+category: research
 ---
 
 Every project has a beautiful feature showcase page.
