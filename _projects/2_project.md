@@ -2,7 +2,6 @@
 layout: page
 title: Electromagnetic Design and Optimization of MJ-Scale Electromagnetic Launchers - Phase III-VI
 description: Project Supported by Defense Industry, 2016 - 2024
-
 img: assets/img/3.jpg
 importance: 2
 category: work
