@@ -5,7 +5,7 @@ description: Project Supported by Defense Industry, 2016 - 2024
 
 img: assets/img/3.jpg
 importance: 2
-category: research
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
