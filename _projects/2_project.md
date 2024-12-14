@@ -8,7 +8,7 @@ category: work
 ---
 
 
-Third phase of the [TUFAN](http://www.millisavunma.com/aselsan-tufan-elektromanyetik-top-sistemi/) railgun project in which a 10 MJ prototype will be tested. Detailed 3D FEA models are developed to obtain electrical, mechanical force, and thermal characteristics of the railgun.
+Project consists of several phases of the [TUFAN](http://www.millisavunma.com/aselsan-tufan-elektromanyetik-top-sistemi/) railgun project in which MJ-scale prototype will be tested. Detailed 3D FEA models are developed to obtain electrical, mechanical force, and thermal characteristics of the railgun.
 
 <iframe src="https://www.youtube.com/embed/m4jd8K6M92k" width="560" height="315" title="A YouTube video" frameborder="0" allowfullscreen></iframe>>
 <iframe src="https://www.youtube.com/embed/58MmOpSm4LY" width="440" height="315" frameborder="0"></iframe>
@@ -18,6 +18,8 @@ The following are the main topics under this project:
 * Multiphysics Simulations (Electromagnetic analysis coupled with thermal or structural analysis)
 * Electrical Machine Design
 * Pulse Power Supplies and Topologies
+
+Some local news: 
 
 * [Star Gazetesi](https://www.star.com.tr/savunma/muthis-basari-yerli-elektromanyetik-top-tufan-rekor-kirdi-haber-1499785/)
 * [AA](https://www.aa.com.tr/tr/bilim-teknoloji/tufandan-namlu-cikis-enerjisi-rekoru/1670322)
