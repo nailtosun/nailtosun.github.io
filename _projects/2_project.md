@@ -1,15 +1,27 @@
 ---
 layout: page
-title: Electromagnetic Design and Optimization of MJ-Scale Electromagnetic Launchers - Phase III-VI
-description: Project Supported by Defense Industry, 2016 - 2024
+title: Railgun
 img: assets/img/3.jpg
 importance: 2
+description: Electromagnetic Design and Optimization of MJ-Scale Electromagnetic Launchers - Phase III-VI. Project Supported by Defense Industry, 2016 - 2024
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+
+<iframe src="https://www.youtube.com/embed/syG2RI37XII" width="440" height="315" frameborder="0"></iframe>
+<iframe src="https://www.youtube.com/embed/58MmOpSm4LY" width="440" height="315" frameborder="0"></iframe>
+
+
+
+Third phase of the [TUFAN](http://www.millisavunma.com/aselsan-tufan-elektromanyetik-top-sistemi/) railgun project in which a 10 MJ prototype will be tested. Detailed 3D FEA models are developed to obtain electrical, mechanical force, and thermal characteristics of the railgun.
+
+The following are the main topics under this project:
+* Finite Element Analysis 
+* Multiphysics Simulations (Electromagnetic analysis coupled with thermal or structural analysis)
+* Electrical Machine Design
+* Pulse Power Supplies and Topologies
+
+
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
