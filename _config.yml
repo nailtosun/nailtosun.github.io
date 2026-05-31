@@ -2,18 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Nail Tosun # the website title (if blank, full name will be used instead)
 first_name: Nail
 middle_name: 
 last_name: Tosun
 email: n.tosun2@newcastle.ac.uk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  
+  Personal academic website of Nail Tosun, a power electronics and electrical drives researcher working on current source inverters, ultra-high-speed machines, and electromagnetic launchers.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: power electronics, electrical drives, current source inverters, ultra-high-speed machines, GaN, electrical machines, electromagnetic launchers  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -71,7 +71,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: naitlosun # your GitHub user name
+github_username: nailtosun # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: AdigeForever # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -104,7 +104,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Email is the best way to reach me for research collaborations, publications, and project enquiries.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -120,9 +120,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: notes # blog_name will be displayed in your blog page
+blog_nav_title: # your blog must have a title for it to be displayed in the nav bar
+blog_description: notes on power electronics, electrical machines, and research
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -137,10 +137,10 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
-  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
-  category: Comments             # name of the category under which discussions will be created
-  category_id: DIC_kwDOA5PmLc4CTBt6
+  repo:      # <your-github-user-name>/<your-github-repo-name>
+  repo_id:
+  category:             # name of the category under which discussions will be created
+  category_id:
   mapping: title                 # identify discussions by post title
   strict: 1                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
@@ -150,7 +150,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -267,8 +267,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Tosun]
+  first_name: [Nail, N.]
 
   style: apa
   locale: en

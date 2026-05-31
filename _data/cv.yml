@@ -2,96 +2,180 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Nail Tosun
+    - name: Email
+      value: <a href="mailto:n.tosun2@newcastle.ac.uk">n.tosun2@newcastle.ac.uk</a>
+    - name: Location
+      value: Newcastle upon Tyne, United Kingdom
+    - name: Profiles
+      value: <a href="https://www.linkedin.com/in/nail-tosun-b00a80150/">LinkedIn</a> | <a href="https://github.com/nailtosun">GitHub</a> | <a href="https://www.researchgate.net/profile/Nail-Tosun?ev=hdr_xprf">ResearchGate</a> | <a href="https://scholar.google.com/citations?user=2_zTqOwAAAAJ&hl=en">Google Scholar</a>
     - name: Languages
-      value: English, German
+      value: English (C1), Turkish (native)
 
-- title: Education
-  type: time_table
+- title: Research Focus
+  type: list
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - Electrical drives, power electronics, and electrical machine design for systems ranging from grid-scale generators to ultra-high-speed miniature machines and pulsed-power electromagnetic launchers.
+    - PhD research on current source inverter drive solutions for ultra-high-speed electrical machines, including GaN and bidirectional GaN prototype development, sensorless motor-drive algorithms, and modulation methods.
+    - Additional interests include wide-bandgap devices, finite element analysis, electromagnetic launchers, power quality, control-system design, optimization, and renewable generation forecasting.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Researcher, Dyson Prosperity Partnership Project
+      institution: Dyson Efficient Power Systems Laboratory, Newcastle University / Dyson, Newcastle upon Tyne, United Kingdom
+      year: Oct 2025 - Mar 2026
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Worked on the Dyson Prosperity Partnership Project (EPSRC EP/T005548/1).
+        - Developed, built, and experimentally tested an ultra-high-speed sensorless motor-drive algorithm.
+        - Developed and tested two CSI prototypes with 100 krpm motors, using GaN and bidirectional GaN devices.
+    - title: Doctoral Student
+      institution: Newcastle University / Dyson, Newcastle upon Tyne, United Kingdom
+      year: Sep 2022 - present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Researching ultra-high-speed motor drives with a focus on current source inverter topologies.
+        - Working on digital motor control and analog/digital sensing using TMS320F2837xD microcontrollers.
+        - Performing electrical machine modeling, finite element analysis, topology comparison, virtual prototyping, and drive-system simulation.
+        - "Software experience: COMSOL Multiphysics, SPICE, PLECS, MATLAB/Simulink, Altium, and Code Composer Studio."
+    - title: Research Engineer
+      institution: PARGE, METU PowerLab, Ankara, Turkey
+      year: Sep 2019 - Sep 2022
       description:
+        - Designed electromagnetic launcher components and optimized armatures.
+        - Developed coupled electromagnetic and thermal finite element models.
+        - Improved test-simulation agreement, designed controllers, and contributed to fault detection and prognostics.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Doctorate of Philosophy
+      institution: Newcastle University, England, United Kingdom
+      year: 2022 - 2026
+      description:
+        - "Thesis: Current Source Inverters for Ultra-High Speed Electrical Machines."
+    - title: Master of Science
+      institution: Middle East Technical University, Ankara, Turkey
+      year: 2021
+      description:
+        - "Thesis: Transient Modeling Techniques for the Analysis of Electromagnetic Launchers."
+    - title: Bachelor of Science
+      institution: Middle East Technical University, Ankara, Turkey
+      year: 2019
+      description:
+        - "Specialty: Electromechanical Energy Conversion and Control."
+
+- title: Selected Projects
+  type: time_table
+  contents:
+    - title: CSI Motor Drives for Ultra-High-Speed Electrical Machines
+      institution: Industrial partner - Dyson
+      year: Sep 2023 - present
+      description:
+        - "Tools: Altium, PLECS, SPICE, MATLAB/Simulink, C2000 MCUs."
+        - Designed GaN and bidirectional GaN CSI hardware, including board design, switching-loss evaluation, and C2000 MCU software development.
+        - Performed high-speed machine loss analysis and experimental validation with 100 krpm motors.
+        - Developed modulation and sensorless motor-control methods for ultra-high-speed machine operation.
+        - Compared CSI and voltage source inverter topologies using virtual prototypes and detailed design models.
+    - title: Design and Analysis of Electromagnetic Launchers
+      institution: Industrial partner - <a href="https://www.aselsan.com/en">ASELSAN Inc.</a>
+      year: Sep 2019 - Sep 2022
+      description:
+        - "Tools: COMSOL Multiphysics, MATLAB."
+        - Designed and optimized railgun components and pulse power supply systems.
+        - Developed multiphysics FEM models and improved agreement between experimental tests and simulations.
+        - Investigated velocity skin effect and lamination modeling for computationally challenging launcher phenomena.
+    - title: Refurbishment of 70+ Year Old Hydroelectric Power Plant
+      institution: Industrial partner - <a href="https://www.euas.gov.tr/en-US">EUAS</a>
+      year: Sep 2021 - Sep 2023
+      description:
+        - "Tools: ANSYS Maxwell, COMSOL Multiphysics."
+        - Supported lifetime extension of ageing hydroelectric generators.
+        - Improved efficiency by 0.2 percent, corresponding to approximately 100 kW loss reduction.
+        - Supported conversion from diamond coils to Roebel bars and updated generator slot number and geometry.
+    - title: 20 kW DC-DC Converter Design for 160 kW String PV Inverter
+      institution: TUBITAK 1004
+      year: Sep 2021 - Sep 2022
+      description:
+        - "Tools: COMSOL Multiphysics, MATLAB."
+        - Used optimization algorithms to design inductors for DC-DC converters.
+        - Developed PWM loss models and coupled thermal-electromagnetic FEM computations.
+    - title: Solar Power Generation Analysis and Forecasting Using ANNs
+      institution: Middle East Technical University
+      year: May 2018 - May 2019
+      description:
+        - "Tools: Python, TensorFlow."
+        - Developed models targeting reliability challenges in solar power generation.
+        - Applied machine learning models to cost-effective solar power forecasting.
+
+- title: Publications
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - N. Tosun et al., "Utilizing Integrated GaN Half Bridges for an Integrated Single-Stage Current Source Inverter Motor Drive," accepted for publication in IEEE Journal of Emerging and Selected Topics in Power Electronics.
+        - N. Tosun et al., "High-Performance Sensorless Control for High-Speed PMSM with Current Source Inverters," accepted for 2026 International Conference on Electrical Machines.
+        - M. Deakin, N. Tosun et al., "A Control Philosophy for Multiplexed Power Converters in Active Distribution Systems," submitted to 2026 IEEE Energy Conversion Conference and Expo.
+    - year: 2025
+      items:
+        - G. Gulletutan, N. Tosun, M. Karagoz, B. Yildirim, Z. Coklu, and O. Keysan, "Static Armature Shape Optimization for Electromagnetic Launchers Considering Specific Action," IEEE Transactions on Plasma Science, 2025.
+        - G. Gulletutan, N. Tosun et al., "Scaling Laws for Electromagnetic Launchers Considering Pulse Power Supply Limitations," IEEE Transactions on Plasma Science, 2025.
+        - N. Tosun, D. Molligoda, X. Deng, and B. C. Mecrow, "Exploring the Third Quadrant Characteristics of GaN HEMTs and Their Potential as Single-Gate Bidirectional Switches," ECCE Europe, 2025.
+    - year: 2024
+      items:
+        - N. Tosun et al., "Utilising the Core Capacitance Achieved Through Ultra-Thin Soft Magnetic Sheets and Insulators," ICEM, 2024.
+        - N. Tosun et al., "Rewinding of Old 44 MVA Hydro Generator Considering Vibrational Forces," ICEM, 2024.
+        - N. Tosun et al., "Eddy Brake Reaction at Bus Structures of Medium-Large Caliber Electromagnetic Launchers," ICEM, 2024.
+    - year: 2023
+      items:
+        - N. Tosun et al., "Scaling Laws for Electromagnetic Launchers Considering an Existing Pulse Power Supply," PPC, 2023.
+        - N. Tosun et al., "Winding Type Alternation of a Refurbished Old Generator," WEMDCD, 2023.
+    - year: 2022
+      items:
+        - N. Tosun et al., "Muzzle Voltage Experiments of the EMFY-3 Launcher," IEEE Transactions on Plasma Science, 2022.
+        - N. Tosun et al., "Sensitivity Analysis for the Inductance Gradient of EMFY-3 Electromagnetic Launcher," IEEE Transactions on Plasma Science, 2022.
+    - year: 2021
+      items:
+        - N. Tosun et al., "A Comparison of Velocity Skin Effect Modeling With 2-D Transient and 3-D Quasi-Transient Finite Element Methods," IEEE Transactions on Plasma Science, 2021.
+        - N. Tosun et al., "Muzzle Voltage Characteristics of Railguns," PPC, 2021.
+        - N. Tosun et al., "Electromagnetic Launcher Speed Control with a Multilevel Fast Triggering Time Algorithm," PPC, 2021.
+        - N. Tosun, "Transient Modeling Techniques for the Analysis of Electromagnetic Launchers," Master's thesis, Middle East Technical University, 2021.
+    - year: 2020
+      items:
+        - N. Tosun et al., "A Hybrid Simulation Model for Electromagnetic Launchers Including the Transient Inductance and Electromotive Force," IEEE Transactions on Plasma Science, 2020.
+        - H. Polat, N. Tosun et al., "Optimization of a Convex Rail Design for Electromagnetic Launchers," IEEE Transactions on Plasma Science, 2020.
+        - N. Tosun et al., "Solar Power Generation Analysis and Forecasting Real-World Data Using LSTM and Autoregressive CNN," SEST, 2020.
+
+- title: Selected Graduate Courses
+  type: list
+  contents:
+    - <a href="https://keysan.me/ee568/">Special Topics in Electrical Machines</a>, Middle East Technical University
+    - <a href="https://catalog.metu.edu.tr/course.php?prog=567&course_code=5670569">Special Topics in Power Electronics</a>, Middle East Technical University
+    - Advanced Power Electronics and Applications, Newcastle University
+    - Power Systems for Aerospace, Marine and Automotive Applications, University of Nottingham
+    - <a href="https://catalog.metu.edu.tr/course.php?prog=567&course_code=5677566">Electric Drives in Electric and Hybrid Electric Vehicles</a>, Middle East Technical University
+    - <a href="https://catalog.metu.edu.tr/course.php?prog=567&course_code=5670786">Electrical Power Quality, Monitoring and Improvement</a>, Middle East Technical University
+    - <a href="https://catalog.metu.edu.tr/course.php?prog=567&course_code=5670553">Optimization Theory</a>, Middle East Technical University
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: Alessandro Costabeber Best Student Paper Award
+      institution: WEMDCD Conference Committee / UK Magnetic Society
+      year: Apr 2023
+      description:
+        - Awarded for outstanding technical contribution and presentation quality at WEMDCD.
+    - title: Highlighted Paper
+      institution: IEEE Transactions on Plasma Science Editorial Committee / IEEE
+      year: 2021
+      description:
+        - "Selected paper: Optimization of a Convex Rail Design for Electromagnetic Launchers."
+    - title: People's Choice Award
+      institution: Middle East Technical University
+      year: 2019
+      description:
+        - Awarded for the poster presentation "Solar Power Generation Analysis and Forecasting on Real World Data Using LSTM and Auto-regressive CNN" at METU EE STAR '19.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: References
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Academic and industrial references are available upon request.
