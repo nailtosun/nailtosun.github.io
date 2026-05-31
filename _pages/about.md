@@ -5,7 +5,7 @@ permalink: /
 subtitle: PhD Candidate, Electrical Drives and Power Electronics
 profile:
   align: right
-  image: prof_pic.jpg
+  image: nail_tosun.jpg
   image_circular: true # crops the image to make it circular
   address: >
     <p>Newcastle University</p>
