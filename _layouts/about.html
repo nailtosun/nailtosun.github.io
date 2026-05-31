@@ -81,10 +81,14 @@ layout: default
             {%- include latest_posts.html %}
           {%- endif %}
 
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2 class="home-section-title"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
-            {%- include selected_papers.html %}
+          <!-- Recent papers -->
+          {% if page.recent_years -%}
+            <h2 class="home-section-title"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">recent publications</a></h2>
+            <div class="publications">
+            {%- for y in page.recent_years %}
+              {% bibliography -f papers -q @*[year={{ y }}]* %}
+            {%- endfor %}
+            </div>
             <p class="section-more"><a href="{{ '/publications/' | relative_url }}">View all publications &rarr;</a></p>
           {%- endif %}
 

@@ -24,7 +24,7 @@ interests:
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+recent_years: [2026, 2025] # show publications from these years on the home page
 social: true  # includes social icons at the bottom of the page
 ---
 
