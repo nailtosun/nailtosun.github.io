@@ -81,9 +81,6 @@
                 <a class="nav-link" href="/projects/">projects</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/repositories/">repositories</a>
-              </li>
-              <li class="nav-item ">
                 <a class="nav-link" href="/courses/">courses</a>
               </li>
 
@@ -219,10 +216,10 @@
           <!-- Latest posts -->
           
 
-          <!-- Selected papers -->
-          <h2 class="home-section-title"><a href="/publications/" style="color: inherit;">selected publications</a></h2>
-          <div class="publications">
-            <ol class="bibliography">
+          <!-- Recent papers -->
+          <h2 class="home-section-title"><a href="/publications/" style="color: inherit;">recent publications</a></h2>
+            <div class="publications">
+              <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -236,7 +233,20 @@
         <div class="author">
         
 
-        <em>Nail Tosun</em>, and  others</div>
+        <em>Nail Tosun</em>, D. Molligoda, X. Deng, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'B. C. Mecrow' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -245,7 +255,7 @@
           <em>IEEE Journal of Emerging and Selected Topics in Power Electronics</em>, 2026
         </div>
         <div class="periodical">
-          Accepted for publication
+          Early Access
         </div>
 
           <!-- Links/Buttons -->
@@ -305,6 +315,46 @@
         <div class="col-sm-2 abbr"></div>
 
         <!-- Entry bib key -->
+        <div id="deakin2026multiplexed" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">A Control Philosophy for Multiplexed Power Converters in Active Distribution Systems</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        M. Deakin, <em>Nail Tosun</em>, and  others</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          2026
+        </div>
+        <div class="periodical">
+          Submitted to 2026 IEEE Energy Conversion Congress and Expo (ECCE), Vancouver, BC, Canada
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
+              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+</ol>
+              <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
         <div id="gulletutan2025specificaction" class="col-sm-8">
         <!-- Title -->
         <div class="title">Static Armature Shape Optimization for Electromagnetic Launchers Considering Specific Action</div>
@@ -345,6 +395,46 @@
           <div class="badges">
             <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/TPS.2025.3619078"></span>
               <span class="__dimensions_badge_embed__" data-doi="10.1109/TPS.2025.3619078" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"></div>
+
+        <!-- Entry bib key -->
+        <div id="gulletutan2025scaling" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Scaling Laws for Electromagnetic Launchers Considering Pulse Power Supply Limitations</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Gorkem Gulletutan, <em>Nail Tosun</em>, and  others</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>IEEE Transactions on Plasma Science</em>, 2025
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://doi.org/10.1109/TPS.2025.3562057" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://scholar.google.com/citations?user=2_zTqOwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 scholar-cite" role="button" title="Citations on Google Scholar"><i class="ai ai-google-scholar"></i> Cited by 1</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/TPS.2025.3562057"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1109/TPS.2025.3562057" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           
@@ -403,155 +493,8 @@
         </div>
       </div>
 </li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="tosun2024corecapacitance" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Utilising the Core Capacitance Achieved Through Ultra-Thin Soft Magnetic Sheets and Insulators</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Nail Tosun</em>, and  others</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In 2024 International Conference on Electrical Machines (ICEM)</em>, 2024
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a href="https://doi.org/10.1109/ICEM60801.2024.10700390" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-            <a href="https://scholar.google.com/citations?user=2_zTqOwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 scholar-cite" role="button" title="Citations on Google Scholar"><i class="ai ai-google-scholar"></i> Cited by 1</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/ICEM60801.2024.10700390"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1109/ICEM60801.2024.10700390" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="tosun2023winding" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Winding Type Alternation of a Refurbished Old Generator</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Nail Tosun</em>, Gorkem Gulletutan, Muhammet Samet Yakut, and
-          <span class="more-authors" title="click to view 3 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '3 more authors' ? 'Deniz Alp Yilmaz, Ozgur Bayer, Ozan Keysan' : '3 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">3 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>In 2023 IEEE Workshop on Electrical Machines Design, Control and Diagnosis (WEMDCD)</em>, 2023
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a href="https://doi.org/10.1109/WEMDCD55819.2023.10110941" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-            <a href="https://scholar.google.com/citations?user=2_zTqOwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 scholar-cite" role="button" title="Citations on Google Scholar"><i class="ai ai-google-scholar"></i> Cited by 1</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/WEMDCD55819.2023.10110941"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1109/WEMDCD55819.2023.10110941" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 abbr"></div>
-
-        <!-- Entry bib key -->
-        <div id="tosun2020hybrid" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">A Hybrid Simulation Model for Electromagnetic Launchers Including the Transient Inductance and Electromotive Force</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Nail Tosun</em>, Hakan Polat, Doga Ceylan, and
-          <span class="more-authors" title="click to view 4 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '4 more authors' ? 'Mustafa Karagoz, Baran Yildirim, Ibrahim Gungen, Ozan Keysan' : '4 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">4 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>IEEE Transactions on Plasma Science</em>, 2020
-        </div>
-        <div class="periodical">
-          
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a href="https://doi.org/10.1109/TPS.2020.3016930" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
-            <a href="https://scholar.google.com/citations?user=2_zTqOwAAAAJ" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 scholar-cite" role="button" title="Citations on Google Scholar"><i class="ai ai-google-scholar"></i> Cited by 21</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/TPS.2020.3016930"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1109/TPS.2020.3016930" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          
-        </div>
-      </div>
-</li>
 </ol>
-          </div>
-
+            </div>
             <p class="section-more"><a href="/publications/">View all publications →</a></p>
 
           <!-- Experience (from CV data) --><h2 class="home-section-title">experience</h2>

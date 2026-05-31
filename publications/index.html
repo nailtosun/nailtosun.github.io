@@ -80,9 +80,6 @@
                 <a class="nav-link" href="/projects/">projects</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link" href="/repositories/">repositories</a>
-              </li>
-              <li class="nav-item ">
                 <a class="nav-link" href="/courses/">courses</a>
               </li>
 
@@ -135,7 +132,20 @@
         <div class="author">
         
 
-        <em>Nail Tosun</em>, and  others</div>
+        <em>Nail Tosun</em>, D. Molligoda, X. Deng, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'B. C. Mecrow' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
 
         <!-- Journal/Book title and date -->
         
@@ -144,7 +154,7 @@
           <em>IEEE Journal of Emerging and Selected Topics in Power Electronics</em>, 2026
         </div>
         <div class="periodical">
-          Accepted for publication
+          Early Access
         </div>
 
           <!-- Links/Buttons -->
