@@ -77,7 +77,7 @@ twitter_username: AdigeForever # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: nail-tosun-b00a80150 # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: 2_zTqOwAAAAJ&hl # your Google Scholar ID
+scholar_userid: 2_zTqOwAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0000-0001-6846-5400 # your ORCID ID
@@ -105,6 +105,22 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
   Email is the best way to reach me for research collaborations, publications, and project enquiries.
+
+# -----------------------------------------------------------------------------
+# Google Scholar metrics (shown on the home page)
+# Update these numbers from https://scholar.google.com/citations?user=2_zTqOwAAAAJ
+# -----------------------------------------------------------------------------
+
+scholar_metrics:
+  enabled: true
+  last_updated: May 2026
+  stats:
+    - label: Citations
+      value: 108
+    - label: h-index
+      value: 6
+    - label: i10-index
+      value: 4
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -295,7 +311,7 @@ badges: # Display different badges for your publications
   dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric, cited]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3  # leave blank to always show all authors

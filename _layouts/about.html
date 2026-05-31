@@ -33,6 +33,11 @@ layout: default
               {{ page.profile.address }}
             </div>
             {%- endif %}
+            {%- if page.social %}
+            <div class="profile-social">
+              {% include social.html %}
+            </div>
+            {%- endif %}
           </div>
           {%- endif %}
 
@@ -40,26 +45,94 @@ layout: default
             {{ content }}
           </div>
 
+          <!-- Research interests -->
+          {% if page.interests %}
+          <div class="interests">
+            {% for interest in page.interests %}
+              <span class="interest-tag">{{ interest }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          <!-- Google Scholar metrics -->
+          {% if site.scholar_metrics.enabled %}
+          <div class="scholar-metrics">
+            {% for stat in site.scholar_metrics.stats %}
+              <a class="metric-card" href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer">
+                <span class="metric-value">{{ stat.value }}</span>
+                <span class="metric-label">{{ stat.label }}</span>
+              </a>
+            {% endfor %}
+          </div>
+          {% if site.scholar_metrics.last_updated %}
+          <p class="metrics-note">Source: <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer">Google Scholar</a> &middot; updated {{ site.scholar_metrics.last_updated }}</p>
+          {% endif %}
+          {% endif %}
+
           <!-- News -->
           {% if page.news -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2 class="home-section-title"><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
             {%- include news.html %}
           {%- endif %}
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            <h2 class="home-section-title"><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
             {%- include latest_posts.html %}
           {%- endif %}
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2 class="home-section-title"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
+            <p class="section-more"><a href="{{ '/publications/' | relative_url }}">View all publications &rarr;</a></p>
           {%- endif %}
 
-          <!-- Social -->
+          <!-- Experience (from CV data) -->
+          {%- assign cv_experience = site.data.cv | where: "title", "Experience" | first -%}
+          {%- if cv_experience -%}
+            <h2 class="home-section-title">experience</h2>
+            <div class="cv home-cv">
+              <div class="card mt-3 p-3">
+                <div>
+                  {% assign entry = cv_experience %}
+                  {% include cv/time_table.html %}
+                </div>
+              </div>
+            </div>
+          {%- endif -%}
+
+          <!-- Education (from CV data) -->
+          {%- assign cv_education = site.data.cv | where: "title", "Education" | first -%}
+          {%- if cv_education -%}
+            <h2 class="home-section-title">education</h2>
+            <div class="cv home-cv">
+              <div class="card mt-3 p-3">
+                <div>
+                  {% assign entry = cv_education %}
+                  {% include cv/time_table.html %}
+                </div>
+              </div>
+            </div>
+          {%- endif -%}
+
+          <!-- Honors and Awards (from CV data) -->
+          {%- assign cv_awards = site.data.cv | where: "title", "Honors and Awards" | first -%}
+          {%- if cv_awards -%}
+            <h2 class="home-section-title">honors &amp; awards</h2>
+            <div class="cv home-cv">
+              <div class="card mt-3 p-3">
+                <div>
+                  {% assign entry = cv_awards %}
+                  {% include cv/time_table.html %}
+                </div>
+              </div>
+            </div>
+          {%- endif -%}
+
+          <!-- Contact -->
           {%- if page.social %}
+            <h2 class="home-section-title">get in touch</h2>
             <div class="social">
               <div class="contact-icons">
                 {% include social.html %}

@@ -184,6 +184,9 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
+          {%- if entry.cited and entry.cited != "0" %}
+            <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0 scholar-cite" role="button" title="Citations on Google Scholar"><i class="ai ai-google-scholar"></i>&nbsp;Cited by {{ entry.cited }}</a>
+          {%- endif %}
           </div>
           {% if site.badges %}
           <div class="badges">
