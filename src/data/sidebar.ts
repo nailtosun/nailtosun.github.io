@@ -3,7 +3,7 @@ import { LuUser, LuLibraryBig, LuWrench } from "react-icons/lu";
 export const sidebar = {
   userName: `Nail Tosun`,
   initials: `NT`,
-  profileImage: `/images/nail_tosun.jpg`,
+  profileImage: `/images/nail_tosun_profile.jpg`,
   sections: [
     {
       title: `About Me`,

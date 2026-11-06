@@ -26,8 +26,8 @@ export const projectsFeatured = {
     {
       id: `csi-motor-drives`,
       title: `CSI Motor Drives for Ultra-High-Speed Electrical Machines`,
-      summary: `GaN and bidirectional GaN current source inverters with sensorless control, including a world-record >400 krpm drive and the first BiGaN-based high-speed motor drive.`,
-      details: `PhD research with Dyson on current source inverter (CSI) drive solutions for ultra-high-speed machines. Developed, implemented and experimentally tested a >400 krpm sensorless motor-drive algorithm, breaking the world record for the n√P metric. Built and tested two CSI prototypes with 100 krpm motors: one using GaN devices and one using first engineering samples of bidirectional GaN (BiGaN) devices, the world's first BiGaN-based high-speed motor-drive implementation. Work also covers board design, switching-loss evaluation, C2000 (TMS320F2837xD) software, high-speed machine loss analysis, novel CSI modulation, and CSI-VSI comparison.`,
+      summary: `GaN and bidirectional GaN current source inverters with sensorless control, including a world-record xxx krpm drive and the first BiGaN-based high-speed motor drive.`,
+      details: `PhD research with Dyson on current source inverter (CSI) drive solutions for ultra-high-speed machines. Developed, implemented and experimentally tested a xxx krpm sensorless motor-drive algorithm, breaking the world record for the n√P metric. Built and tested two CSI prototypes with 100 krpm motors: one using GaN devices and one using first engineering samples of bidirectional GaN (BiGaN) devices, the world's first BiGaN-based high-speed motor-drive implementation. Work also covers board design, switching-loss evaluation, C2000 (TMS320F2837xD) software, high-speed machine loss analysis, novel CSI modulation, and CSI-VSI comparison.`,
       partner: {
         name: `Dyson`,
         url: `https://research.ncl.ac.uk/electric-propulsion/`

@@ -63,7 +63,7 @@ publications:
       type: "journal"
       link: "https://doi.org/10.1109/TPS.2025.3619078"
       note: null
-      citations: 0
+      citations: 1
       featured: true
 
     - title: "Scaling Laws for Electromagnetic Launchers Considering Pulse Power Supply Limitations"
@@ -83,7 +83,7 @@ publications:
       type: "conference"
       link: "https://doi.org/10.1109/ECCE-Europe62795.2025.11238524"
       note: null
-      citations: 0
+      citations: 1
       featured: true
 
     # ---------------- 2024 ----------------
@@ -135,7 +135,7 @@ publications:
       type: "conference"
       link: "https://doi.org/10.1109/WEMDCD55819.2023.10110941"
       note: null
-      citations: 1
+      citations: 2
       featured: false
 
     # ---------------- 2022 ----------------
@@ -146,7 +146,7 @@ publications:
       type: "journal"
       link: "https://doi.org/10.1109/TPS.2022.3185803"
       note: null
-      citations: 3
+      citations: 5
       featured: false
 
     - title: "Sensitivity Analysis for the Inductance Gradient of EMFY-3 Electromagnetic Launcher"
@@ -167,7 +167,7 @@ publications:
       type: "journal"
       link: "https://doi.org/10.1109/TPS.2021.3067105"
       note: null
-      citations: 24
+      citations: 25
       featured: false
 
     - title: "Muzzle Voltage Characteristics of Railguns"
@@ -187,7 +187,7 @@ publications:
       type: "conference"
       link: "https://doi.org/10.1109/PPC40517.2021.9733121"
       note: null
-      citations: 7
+      citations: 9
       featured: false
 
     - title: "Transient Modeling Techniques for the Analysis of Electromagnetic Launchers"
@@ -197,7 +197,7 @@ publications:
       type: "thesis"
       link: "https://open.metu.edu.tr/handle/11511/93126"
       note: null
-      citations: 2
+      citations: 3
       featured: false
 
     # ---------------- 2020 ----------------
@@ -208,7 +208,7 @@ publications:
       type: "journal"
       link: "https://doi.org/10.1109/TPS.2020.3016930"
       note: null
-      citations: 21
+      citations: 25
       featured: false
 
     - title: "Optimization of a Convex Rail Design for Electromagnetic Launchers"
@@ -218,7 +218,7 @@ publications:
       type: "journal"
       link: "https://doi.org/10.1109/TPS.2020.2993785"
       note: "Highlighted Paper"
-      citations: 23
+      citations: 26
       featured: false
 
     - title: "Solar Power Generation Analysis and Forecasting Real-World Data Using LSTM and Autoregressive CNN"

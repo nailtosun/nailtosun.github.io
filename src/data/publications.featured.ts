@@ -39,7 +39,7 @@ export const publicationsFeatured = {
       type: `journal`,
       link: `https://doi.org/10.1109/TPS.2025.3619078`,
       note: null,
-      citations: 0
+      citations: 1
     },
     {
       title: `Scaling Laws for Electromagnetic Launchers Considering Pulse Power Supply Limitations`,
@@ -59,7 +59,7 @@ export const publicationsFeatured = {
       type: `conference`,
       link: `https://doi.org/10.1109/ECCE-Europe62795.2025.11238524`,
       note: null,
-      citations: 0
+      citations: 1
     }
   ]
 };

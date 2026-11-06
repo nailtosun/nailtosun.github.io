@@ -44,7 +44,7 @@ export const publications: PublicationsType = {
       type: `journal`,
       link: `https://doi.org/10.1109/TPS.2025.3619078`,
       note: null,
-      citations: 0,
+      citations: 1,
       featured: true
     },
     {
@@ -66,7 +66,7 @@ export const publications: PublicationsType = {
       type: `conference`,
       link: `https://doi.org/10.1109/ECCE-Europe62795.2025.11238524`,
       note: null,
-      citations: 0,
+      citations: 1,
       featured: true
     },
     {
@@ -121,7 +121,7 @@ export const publications: PublicationsType = {
       type: `conference`,
       link: `https://doi.org/10.1109/WEMDCD55819.2023.10110941`,
       note: null,
-      citations: 1,
+      citations: 2,
       featured: false
     },
     {
@@ -132,7 +132,7 @@ export const publications: PublicationsType = {
       type: `journal`,
       link: `https://doi.org/10.1109/TPS.2022.3185803`,
       note: null,
-      citations: 3,
+      citations: 5,
       featured: false
     },
     {
@@ -154,7 +154,7 @@ export const publications: PublicationsType = {
       type: `journal`,
       link: `https://doi.org/10.1109/TPS.2021.3067105`,
       note: null,
-      citations: 24,
+      citations: 25,
       featured: false
     },
     {
@@ -176,7 +176,7 @@ export const publications: PublicationsType = {
       type: `conference`,
       link: `https://doi.org/10.1109/PPC40517.2021.9733121`,
       note: null,
-      citations: 7,
+      citations: 9,
       featured: false
     },
     {
@@ -187,7 +187,7 @@ export const publications: PublicationsType = {
       type: `thesis`,
       link: `https://open.metu.edu.tr/handle/11511/93126`,
       note: null,
-      citations: 2,
+      citations: 3,
       featured: false
     },
     {
@@ -198,7 +198,7 @@ export const publications: PublicationsType = {
       type: `journal`,
       link: `https://doi.org/10.1109/TPS.2020.3016930`,
       note: null,
-      citations: 21,
+      citations: 25,
       featured: false
     },
     {
@@ -209,7 +209,7 @@ export const publications: PublicationsType = {
       type: `journal`,
       link: `https://doi.org/10.1109/TPS.2020.2993785`,
       note: `Highlighted Paper`,
-      citations: 23,
+      citations: 26,
       featured: false
     },
     {

@@ -8,7 +8,7 @@
 sidebar:
   userName: "Nail Tosun" # Name displayed at the top of the sidebar
   initials: "NT" # Shown if the profile image fails to load
-  profileImage: "/images/nail_tosun.jpg" # Profile image URL
+  profileImage: "/images/nail_tosun_profile.jpg" # Profile image URL
   sections:
     - title: About Me
       url: ""
