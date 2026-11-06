@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://nailtosun.github.io/sitemap.xml
