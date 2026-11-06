@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script>
+      // The site uses hash routing (/#/publications). GitHub Pages serves this
+      // file for unknown paths, so old links such as /publications/ or
+      // /projects/1_project/ are forwarded to the matching page.
+      (function () {
+        var routes = { publications: "publications", projects: "projects" };
+        var first = location.pathname.replace(/^\/+|\/+$/g, "").split("/")[0];
+        location.replace("/#/" + (routes[first] || ""));
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="/">the homepage</a>…</p>
+  </body>
+</html>

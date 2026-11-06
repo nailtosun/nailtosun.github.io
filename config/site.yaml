@@ -1,0 +1,10 @@
+# =====================================================
+# Website Configuration
+# This section contains general information about your website.
+# =====================================================
+
+site:
+  name: "Nail Tosun"
+  repoUrl: "https://github.com/nailtosun/nailtosun.github.io"
+  description: "Personal academic website of Nail Tosun, a power electronics and electrical drives researcher working on current source inverters, ultra-high-speed machines, and electromagnetic launchers."
+  author: "Nail Tosun"

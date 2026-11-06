@@ -1,0 +1,227 @@
+import type { PublicationsType } from "@/types/publications";
+
+export const publications: PublicationsType = {
+  authorName: `N. Tosun`,
+  items: [
+    {
+      title: `Utilizing Integrated GaN Half Bridges for an Integrated Single-Stage Current-Source Inverter Motor Drive`,
+      authors: `N. Tosun, D. Molligoda, X. Deng, B. C. Mecrow`,
+      year: 2026,
+      venue: `IEEE Journal of Emerging and Selected Topics in Power Electronics, vol. 14, no. 4, pp. 4222–4235`,
+      type: `journal`,
+      link: `https://doi.org/10.1109/JESTPE.2026.3692437`,
+      note: null,
+      citations: 0,
+      featured: true
+    },
+    {
+      title: `High-Performance Sensorless Control for High-Speed PMSM with Current Source Inverters`,
+      authors: `N. Tosun, D. Molligoda, X. Deng, B. C. Mecrow`,
+      year: 2026,
+      venue: `2026 International Conference on Electrical Machines (ICEM), pp. 1–7`,
+      type: `conference`,
+      link: `https://doi.org/10.1109/ICEM68283.2026.11757463`,
+      note: null,
+      citations: 0,
+      featured: true
+    },
+    {
+      title: `A Control Philosophy for Multiplexed Power Converters in Active Distribution Systems`,
+      authors: `M. Deakin, M. Jamali, N. Tosun, S. Odhano`,
+      year: 2026,
+      venue: `2026 IEEE Energy Conversion Congress and Expo (ECCE), Vancouver, Canada · arXiv:2609.06621`,
+      type: `conference`,
+      link: `https://arxiv.org/abs/2609.06621`,
+      note: `Accepted`,
+      citations: 0,
+      featured: true
+    },
+    {
+      title: `Static Armature Shape Optimization for Electromagnetic Launchers Considering Specific Action`,
+      authors: `G. Gulletutan, N. Tosun, M. Karagoz, B. Yildirim, Z. Coklu, O. Keysan`,
+      year: 2025,
+      venue: `IEEE Transactions on Plasma Science, vol. 53, no. 11, pp. 3544–3553`,
+      type: `journal`,
+      link: `https://doi.org/10.1109/TPS.2025.3619078`,
+      note: null,
+      citations: 0,
+      featured: true
+    },
+    {
+      title: `Scaling Laws for Electromagnetic Launchers Considering Pulse Power Supply Limitations`,
+      authors: `G. Gulletutan, N. Tosun, M. Karagoz, B. Yildirim, Z. Coklu, O. Keysan`,
+      year: 2025,
+      venue: `IEEE Transactions on Plasma Science, vol. 53, no. 6, pp. 1387–1396`,
+      type: `journal`,
+      link: `https://doi.org/10.1109/TPS.2025.3562057`,
+      note: null,
+      citations: 1,
+      featured: true
+    },
+    {
+      title: `Exploring the Third Quadrant Characteristics of GaN HEMTs and Their Potential as Single-Gate Bidirectional Switches`,
+      authors: `N. Tosun, D. Molligoda, X. Deng, B. C. Mecrow`,
+      year: 2025,
+      venue: `2025 Energy Conversion Congress and Expo Europe (ECCE Europe), pp. 1–5`,
+      type: `conference`,
+      link: `https://doi.org/10.1109/ECCE-Europe62795.2025.11238524`,
+      note: null,
+      citations: 0,
+      featured: true
+    },
+    {
+      title: `Utilising the Core Capacitance Achieved Through Ultra-Thin Soft Magnetic Sheets and Insulators`,
+      authors: `N. Tosun, G. Atkinson, B. C. Mecrow`,
+      year: 2024,
+      venue: `2024 International Conference on Electrical Machines (ICEM), pp. 1–7`,
+      type: `conference`,
+      link: `https://doi.org/10.1109/ICEM60801.2024.10700390`,
+      note: null,
+      citations: 1,
+      featured: false
+    },
+    {
+      title: `Rewinding of Old 44 MVA Hydro Generator Considering Vibrational Forces`,
+      authors: `M. S. Yakut, G. Gulletutan, N. Tosun, O. Keysan`,
+      year: 2024,
+      venue: `2024 International Conference on Electrical Machines (ICEM)`,
+      type: `conference`,
+      link: `https://doi.org/10.1109/ICEM60801.2024.10700125`,
+      note: null,
+      citations: 1,
+      featured: false
+    },
+    {
+      title: `Eddy Brake Reaction at Bus Structures of Medium-Large Caliber Electromagnetic Launchers`,
+      authors: `N. Tosun, G. Gulletutan, O. Keysan`,
+      year: 2024,
+      venue: `2024 International Conference on Electrical Machines (ICEM)`,
+      type: `conference`,
+      link: `https://doi.org/10.1109/ICEM60801.2024.10700432`,
+      note: null,
+      citations: 2,
+      featured: false
+    },
+    {
+      title: `Scaling Laws for Electromagnetic Launchers Considering an Existing Pulse Power Supply`,
+      authors: `G. Gulletutan, O. Keysan, N. Tosun, F. Yurdakonar, B. Yildirim, Z. Coklu, M. Karagoz`,
+      year: 2023,
+      venue: `2023 IEEE Pulsed Power Conference (PPC)`,
+      type: `conference`,
+      link: `https://doi.org/10.1109/PPC47928.2023.10310959`,
+      note: null,
+      citations: 0,
+      featured: false
+    },
+    {
+      title: `Winding Type Alternation of a Refurbished Old Generator`,
+      authors: `N. Tosun, G. Gulletutan, M. S. Yakut, D. Alp Yilmaz, O. Bayer, O. Keysan`,
+      year: 2023,
+      venue: `2023 IEEE Workshop on Electrical Machines Design, Control and Diagnosis (WEMDCD), pp. 1–6`,
+      type: `conference`,
+      link: `https://doi.org/10.1109/WEMDCD55819.2023.10110941`,
+      note: null,
+      citations: 1,
+      featured: false
+    },
+    {
+      title: `Muzzle Voltage Experiments of the EMFY-3 Launcher`,
+      authors: `N. Tosun, M. Karagoz, F. Yurdakonar, G. Gulletutan, B. Yildirim, O. Keysan`,
+      year: 2022,
+      venue: `IEEE Transactions on Plasma Science, vol. 50, no. 10, pp. 3434–3442`,
+      type: `journal`,
+      link: `https://doi.org/10.1109/TPS.2022.3185803`,
+      note: null,
+      citations: 3,
+      featured: false
+    },
+    {
+      title: `Sensitivity Analysis for the Inductance Gradient of EMFY-3 Electromagnetic Launcher`,
+      authors: `N. Tosun, A. Civil, A. Y. Oruc, B. Yildirim, B. M. Ozceylan, B. Bolat, E. B. Yurdakul, E. Tan, F. Yurdakonar, H. Akdemir, I. Gungen, I. Onur, M. Karagoz, O. Cavbozar, R. H. Demirkol, U. Gocmen, O. Keysan`,
+      year: 2022,
+      venue: `IEEE Transactions on Plasma Science, vol. 50, no. 2, pp. 381–386`,
+      type: `journal`,
+      link: `https://doi.org/10.1109/TPS.2022.3140224`,
+      note: null,
+      citations: 6,
+      featured: false
+    },
+    {
+      title: `A Comparison of Velocity Skin Effect Modeling With 2-D Transient and 3-D Quasi-Transient Finite Element Methods`,
+      authors: `N. Tosun, D. Ceylan, H. Polat, O. Keysan`,
+      year: 2021,
+      venue: `IEEE Transactions on Plasma Science, vol. 49, no. 4, pp. 1500–1507`,
+      type: `journal`,
+      link: `https://doi.org/10.1109/TPS.2021.3067105`,
+      note: null,
+      citations: 24,
+      featured: false
+    },
+    {
+      title: `Muzzle Voltage Characteristics of Railguns`,
+      authors: `N. Tosun, G. Gulletutan, O. Keysan, F. Yurdakonar, M. Karagoz`,
+      year: 2021,
+      venue: `2021 IEEE Pulsed Power Conference (PPC), pp. 1–4`,
+      type: `conference`,
+      link: `https://doi.org/10.1109/PPC40517.2021.9733152`,
+      note: null,
+      citations: 0,
+      featured: false
+    },
+    {
+      title: `Electromagnetic Launcher Speed Control with a Multilevel Fast Triggering Time Algorithm (MFTTA)`,
+      authors: `N. Tosun, H. Polat, O. Keysan`,
+      year: 2021,
+      venue: `2021 IEEE Pulsed Power Conference (PPC), pp. 1–10`,
+      type: `conference`,
+      link: `https://doi.org/10.1109/PPC40517.2021.9733121`,
+      note: null,
+      citations: 7,
+      featured: false
+    },
+    {
+      title: `Transient Modeling Techniques for the Analysis of Electromagnetic Launchers`,
+      authors: `N. Tosun`,
+      year: 2021,
+      venue: `M.Sc. thesis, Middle East Technical University`,
+      type: `thesis`,
+      link: `https://open.metu.edu.tr/handle/11511/93126`,
+      note: null,
+      citations: 2,
+      featured: false
+    },
+    {
+      title: `A Hybrid Simulation Model for Electromagnetic Launchers Including the Transient Inductance and Electromotive Force`,
+      authors: `N. Tosun, H. Polat, D. Ceylan, M. Karagoz, B. Yildirim, I. Gungen, O. Keysan`,
+      year: 2020,
+      venue: `IEEE Transactions on Plasma Science, vol. 48, no. 9, pp. 3220–3228`,
+      type: `journal`,
+      link: `https://doi.org/10.1109/TPS.2020.3016930`,
+      note: null,
+      citations: 21,
+      featured: false
+    },
+    {
+      title: `Optimization of a Convex Rail Design for Electromagnetic Launchers`,
+      authors: `H. Polat, N. Tosun, D. Ceylan, O. Keysan`,
+      year: 2020,
+      venue: `IEEE Transactions on Plasma Science, vol. 48, no. 6, pp. 2266–2273`,
+      type: `journal`,
+      link: `https://doi.org/10.1109/TPS.2020.2993785`,
+      note: `Highlighted Paper`,
+      citations: 23,
+      featured: false
+    },
+    {
+      title: `Solar Power Generation Analysis and Forecasting Real-World Data Using LSTM and Autoregressive CNN`,
+      authors: `N. Tosun, E. Sert, E. Ayaz, E. Yilmaz, M. Gol`,
+      year: 2020,
+      venue: `2020 International Conference on Smart Energy Systems and Technologies (SEST), pp. 1–6`,
+      type: `conference`,
+      link: `https://doi.org/10.1109/SEST48500.2020.9203124`,
+      note: null,
+      citations: 16,
+      featured: false
+    }
+  ]
+};
