@@ -13,12 +13,26 @@ export function ProjectVisual({
   className?: string;
 }) {
   if (project.previewImage) {
+    // Logos are shown whole on a white plate (readable in both themes);
+    // photos are cropped to fill the space.
+    const contain = project.previewFit === "contain";
+
     return (
-      <div className={cn("w-full overflow-hidden", className)}>
+      <div
+        className={cn(
+          "w-full overflow-hidden",
+          contain && "flex items-center justify-center bg-white p-8",
+          className,
+        )}
+      >
         <img
           src={project.previewImage}
           alt={project.title}
-          className="w-full h-full object-cover"
+          className={cn(
+            "w-full h-full",
+            contain ? "max-w-40 object-contain" : "object-cover",
+          )}
+          style={{ objectPosition: project.previewPosition }}
           loading="lazy"
         />
       </div>

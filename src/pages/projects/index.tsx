@@ -145,7 +145,7 @@ function ProjectCard({
 
           <div className="flex flex-row flex-wrap gap-x-4 gap-y-1 text-sm text-muted-foreground">
             <span className="flex flex-row items-center gap-1.5">
-              <FaHandshake />
+              <FaHandshake className="shrink-0" />
               {project.partner.url ? (
                 <a
                   href={project.partner.url}
@@ -160,7 +160,7 @@ function ProjectCard({
               )}
             </span>
             <span className="flex flex-row items-center gap-1.5">
-              <FaRegCalendar />
+              <FaRegCalendar className="shrink-0" />
               {project.years}
             </span>
           </div>

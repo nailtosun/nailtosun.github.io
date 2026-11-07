@@ -1,4 +1,4 @@
-import { LuCog, LuUtilityPole, LuGauge, LuWaves, LuSun, LuRocket, LuChartLine } from "react-icons/lu";
+import { LuCog, LuUtilityPole, LuFan, LuGauge, LuWaves, LuSun, LuRocket, LuChartLine } from "react-icons/lu";
 import type { ProjectsType } from "@/types/projects";
 
 export const projects: ProjectsType = {
@@ -38,9 +38,33 @@ export const projects: ProjectsType = {
           url: `https://arxiv.org/abs/2609.06621`
         }
       ],
-      previewImage: null,
+      previewImage: `/images/newcastle_university_logo.png`,
+      previewFit: `contain`,
       icon: LuUtilityPole,
       featured: true
+    },
+    {
+      id: `dyson-prosperity-partnership`,
+      title: `Dyson Prosperity Partnership Project`,
+      summary: `EPSRC Prosperity Partnership with Dyson on more efficient, smaller and more sustainable power systems, contributing ultra-high-speed sensorless CSI motor drives.`,
+      details: `Researcher on the EPSRC Prosperity Partnership Dyson Future Power Systems Lab (EP/T005548/1), which takes a whole-system approach to making the power systems in domestic appliances more efficient, smaller, lighter and more sustainable. Developed, implemented and experimentally tested a xxx krpm sensorless motor-drive algorithm, breaking the world record for the n√P metric. Developed and tested two current source inverter (CSI) prototypes with 100 krpm motors: one using GaN devices and one using first engineering samples of bidirectional GaN (BiGaN) devices, the world's first BiGaN-based high-speed motor-drive implementation.`,
+      partner: {
+        name: `Dyson Efficient Power Systems Laboratory, Newcastle University / Dyson`,
+        url: null
+      },
+      years: `Mar 2025 - Apr 2026`,
+      topic: `Motor Drives`,
+      tools: [],
+      links: [
+        {
+          name: `EPSRC Grant EP/T005548/1 (UKRI GtR)`,
+          url: `https://gtr.ukri.org/find-research-and-innovation/project/66d5d62f-0051-47e4-bd6e-af740f7e0652#overview`
+        }
+      ],
+      previewImage: `/images/dyson_logo.svg`,
+      previewFit: `contain`,
+      icon: LuFan,
+      featured: false
     },
     {
       id: `csi-motor-drives`,
@@ -70,7 +94,8 @@ export const projects: ProjectsType = {
           url: `https://doi.org/10.1109/ICEM68283.2026.11757463`
         }
       ],
-      previewImage: null,
+      previewImage: `/images/high_speed_motor.jpg`,
+      previewPosition: `72% 50%`,
       icon: LuGauge,
       featured: true
     },
@@ -99,7 +124,7 @@ export const projects: ProjectsType = {
           url: `https://ukmagsoc.org/wp-content/uploads/2024/01/MagNews-3-2023-cover.jpg`
         }
       ],
-      previewImage: null,
+      previewImage: `/images/hydro_generator_refurbishment.jpg`,
       icon: LuWaves,
       featured: false
     },
@@ -152,7 +177,7 @@ export const projects: ProjectsType = {
           url: `https://www.youtube.com/watch?v=Ct7TuU8m9lY&ab_channel=arronlee33`
         }
       ],
-      previewImage: null,
+      previewImage: `/images/electromagnetic_launcher.jpg`,
       icon: LuRocket,
       featured: true
     },

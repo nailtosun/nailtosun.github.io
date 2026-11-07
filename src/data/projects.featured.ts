@@ -20,7 +20,8 @@ export const projectsFeatured = {
           url: `https://arxiv.org/abs/2609.06621`
         }
       ],
-      previewImage: null,
+      previewImage: `/images/newcastle_university_logo.png`,
+      previewFit: `contain`,
       icon: LuUtilityPole
     },
     {
@@ -51,7 +52,8 @@ export const projectsFeatured = {
           url: `https://doi.org/10.1109/ICEM68283.2026.11757463`
         }
       ],
-      previewImage: null,
+      previewImage: `/images/high_speed_motor.jpg`,
+      previewPosition: `72% 50%`,
       icon: LuGauge
     },
     {
@@ -83,7 +85,7 @@ export const projectsFeatured = {
           url: `https://www.youtube.com/watch?v=Ct7TuU8m9lY&ab_channel=arronlee33`
         }
       ],
-      previewImage: null,
+      previewImage: `/images/electromagnetic_launcher.jpg`,
       icon: LuRocket
     }
   ]

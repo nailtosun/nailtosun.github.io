@@ -12,6 +12,9 @@
 #   - `tools`: list of tools used (shown as tags).
 #   - `links`: optional list of { name, url } (media, papers, ...).
 #   - `previewImage`: optional image URL (or "/images/..." for files in /public/images), or null.
+#   - `previewPosition`: optional CSS object-position for the preview image crop (e.g. "70% 50%").
+#   - `previewFit`: optional "contain" to show the whole image (e.g. a logo) on a white panel
+#       instead of cropping it to fill the space (default "cover").
 #   - `icon`: react-icons icon shown when there is no preview image.
 #   - `featured`:
 #       true  → shown on the homepage
@@ -50,11 +53,32 @@ projects:
       links:
         - name: "Paper (ECCE 2026, arXiv)"
           url: "https://arxiv.org/abs/2609.06621"
-      previewImage: null
+      previewImage: "/images/newcastle_university_logo.png"
+      previewFit: "contain"
       icon:
         name: "LuUtilityPole"
         package: "react-icons/lu"
       featured: true
+
+    - id: "dyson-prosperity-partnership"
+      title: "Dyson Prosperity Partnership Project"
+      summary: "EPSRC Prosperity Partnership with Dyson on more efficient, smaller and more sustainable power systems, contributing ultra-high-speed sensorless CSI motor drives."
+      details: "Researcher on the EPSRC Prosperity Partnership Dyson Future Power Systems Lab (EP/T005548/1), which takes a whole-system approach to making the power systems in domestic appliances more efficient, smaller, lighter and more sustainable. Developed, implemented and experimentally tested a xxx krpm sensorless motor-drive algorithm, breaking the world record for the n√P metric. Developed and tested two current source inverter (CSI) prototypes with 100 krpm motors: one using GaN devices and one using first engineering samples of bidirectional GaN (BiGaN) devices, the world's first BiGaN-based high-speed motor-drive implementation."
+      partner:
+        name: "Dyson Efficient Power Systems Laboratory, Newcastle University / Dyson"
+        url: null
+      years: "Mar 2025 - Apr 2026"
+      topic: "Motor Drives"
+      tools: []
+      links:
+        - name: "EPSRC Grant EP/T005548/1 (UKRI GtR)"
+          url: "https://gtr.ukri.org/find-research-and-innovation/project/66d5d62f-0051-47e4-bd6e-af740f7e0652#overview"
+      previewImage: "/images/dyson_logo.svg"
+      previewFit: "contain"
+      icon:
+        name: "LuFan"
+        package: "react-icons/lu"
+      featured: false
 
     - id: "csi-motor-drives"
       title: "CSI Motor Drives for Ultra-High-Speed Electrical Machines"
@@ -71,7 +95,8 @@ projects:
           url: "https://doi.org/10.1109/JESTPE.2026.3692437"
         - name: "Paper (ICEM 2026)"
           url: "https://doi.org/10.1109/ICEM68283.2026.11757463"
-      previewImage: null
+      previewImage: "/images/high_speed_motor.jpg"
+      previewPosition: "72% 50%"
       icon:
         name: "LuGauge"
         package: "react-icons/lu"
@@ -92,7 +117,7 @@ projects:
           url: "https://www.aa.com.tr/tr/bilim-teknoloji/turkiyedeki-barajlarin-kalbine-yerli-yuksek-teknoloji-yerlestiriliyor/2876185"
         - name: "International News"
           url: "https://ukmagsoc.org/wp-content/uploads/2024/01/MagNews-3-2023-cover.jpg"
-      previewImage: null
+      previewImage: "/images/hydro_generator_refurbishment.jpg"
       icon:
         name: "LuWaves"
         package: "react-icons/lu"
@@ -132,7 +157,7 @@ projects:
           url: "https://www.aa.com.tr/en/economy/turkish-defense-firms-gun-breaks-ultrasonic-records/1219753"
         - name: "YouTube"
           url: "https://www.youtube.com/watch?v=Ct7TuU8m9lY&ab_channel=arronlee33"
-      previewImage: null
+      previewImage: "/images/electromagnetic_launcher.jpg"
       icon:
         name: "LuRocket"
         package: "react-icons/lu"
